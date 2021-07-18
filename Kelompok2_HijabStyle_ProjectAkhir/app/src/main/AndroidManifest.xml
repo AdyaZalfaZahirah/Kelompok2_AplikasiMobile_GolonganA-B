@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.HijabStyle">
+
+    \\tambahkan permession
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HijabStyle"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.HijabStyle.konfirmasi"></activity>
+        <activity android:name="com.example.HijabStyle.pembayaran" />
+        <activity android:name="com.example.HijabStyle.transaksi" />
+        <activity android:name="com.example.HijabStyle.terbaru_tuspinrose" />
+        <activity android:name="com.example.HijabStyle.bella_terbaru" />
+        <activity android:name="com.example.HijabStyle.HowToOrder" />
+        <activity android:name="com.example.HijabStyle.diskon_crinklemaroon" />
+        <activity android:name="com.example.HijabStyle.diskon_lasercutrosewood" />
+        <activity android:name="com.example.HijabStyle.diskon_plisketdarkgrey" />
+        <activity android:name="com.example.HijabStyle.diskon_syarimaroon" />
+        <activity android:name="com.example.HijabStyle.diskon_talicerutymilo" />
+        <activity android:name="com.example.HijabStyle.diskon_maryammustard" />
+        <activity android:name="com.example.HijabStyle.diskon_embossdustypink" />
+        <activity android:name="com.example.HijabStyle.diskon_babydolllightcream" />
+        <activity android:name="com.example.HijabStyle.diskon_syaridustypink" />
+        <activity android:name="com.example.HijabStyle.diskon_taliceruty" />
+        <activity android:name="com.example.HijabStyle.syari_pasificblue" />
+        <activity android:name="com.example.HijabStyle.syari_khaki" />
+        <activity android:name="com.example.HijabStyle.syari_dustypink" />
+        <activity android:name="com.example.HijabStyle.syari_maroon" />
+        <activity android:name="com.example.HijabStyle.syari_darkgrey" />
+        <activity android:name="com.example.HijabStyle.syari_navy" />
+        <activity android:name="com.example.HijabStyle.lasercut_mustard" />
+        <activity android:name="com.example.HijabStyle.lasercut_nutella" />
+        <activity android:name="com.example.HijabStyle.lasercut_rosewood" />
+        <activity android:name="com.example.HijabStyle.lasercut_babypink" />
+        <activity android:name="com.example.HijabStyle.lasercut_navy" />
+        <activity android:name="com.example.HijabStyle.lasercut_black" />
+        <activity android:name="com.example.HijabStyle.crinkle_jeans" />
+        <activity android:name="com.example.HijabStyle.crinkle_fosil" />
+        <activity android:name="com.example.HijabStyle.crinkle_honey" />
+        <activity android:name="com.example.HijabStyle.crinkle_mint" />
+        <activity android:name="com.example.HijabStyle.crinkle_maroon" />
+        <activity android:name="com.example.HijabStyle.crinkle_darkgrey" />
+        <activity android:name="com.example.HijabStyle.diamond_army" />
+        <activity android:name="com.example.HijabStyle.diamond_black" />
+        <activity android:name="com.example.HijabStyle.diamond_rosewood" />
+        <activity android:name="com.example.HijabStyle.diamond_olive" />
+        <activity android:name="com.example.HijabStyle.diamond_nutella" />
+        <activity android:name="com.example.HijabStyle.diamond_taro" />
+        <activity android:name="com.example.HijabStyle.taliceruty_black" />
+        <activity android:name="com.example.HijabStyle.taliceruty_peach" />
+        <activity android:name="com.example.HijabStyle.taliceruty_grey" />
+        <activity android:name="com.example.HijabStyle.taliceruty_milo" />
+        <activity android:name="com.example.HijabStyle.taliceruty_irishrose" />
+        <activity android:name="com.example.HijabStyle.taliceruty_greentea" />
+        <activity android:name="com.example.HijabStyle.plisket_darkgrey" />
+        <activity android:name="com.example.HijabStyle.plisket_navy" />
+        <activity android:name="com.example.HijabStyle.plisket_army" />
+        <activity android:name="com.example.HijabStyle.plisket_mustard" />
+        <activity android:name="com.example.HijabStyle.plisket_bata" />
+        <activity android:name="com.example.HijabStyle.plisket_grey" />
+        <activity android:name="com.example.HijabStyle.plisket_salmon" />
+        <activity android:name="com.example.HijabStyle.plisket_dustypink" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_black" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_mustard" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_mint" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_maroon" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_dustypink" />
+        <activity android:name="com.example.HijabStyle.bergomaryam_babypink" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_peach" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_lightcream" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_silver" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_bone" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_white" />
+        <activity android:name="com.example.HijabStyle.cerutybabydoll_navy" />
+        <activity android:name="com.example.HijabStyle.bellasquare_khaki" />
+        <activity android:name="com.example.HijabStyle.bellasquare_army" />
+        <activity android:name="com.example.HijabStyle.bellasquare_oceanblue" />
+        <activity android:name="com.example.HijabStyle.bellasquare_nude" />
+        <activity android:name="com.example.HijabStyle.bellasquare_navy" />
+        <activity android:name="com.example.HijabStyle.bellasquare_dustypink" />
+        <activity android:name="com.example.HijabStyle.bellasquare_mauve" />
+        <activity android:name="com.example.HijabStyle.bellasquare_maroon" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_black" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_peach" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_deepblush" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_vanilla" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_milo" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_dove" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_wardah" />
+        <activity android:name="com.example.HijabStyle.pashmina_square_sillver" />
+        <activity android:name="com.example.HijabStyle.pashmina_emboss_dustypink" />
+        <activity android:name="com.example.HijabStyle.pashmina_emboss_grey" />
+        <activity android:name="com.example.HijabStyle.pashmina_emboss_black" />
+        <activity android:name="com.example.HijabStyle.pashmina_emboss_mint" />
+        <activity android:name="com.example.HijabStyle.pashmina_emboss_lilac" />
+        <activity android:name="com.example.HijabStyle.PashminaEmboss_Seaweed" />
+        <activity android:name="com.example.HijabStyle.Jepit_Korea" />
+        <activity android:name="com.example.HijabStyle.Tuspin_Rose" />
+        <activity android:name="com.example.HijabStyle.Inner_Rajut_2warna" />
+        <activity android:name="com.example.HijabStyle.ineer_rajut" />
+        <activity android:name="com.example.HijabStyle.iner_basic" />
+        <activity android:name="com.example.HijabStyle.manset_leher" />
+        <activity android:name="com.example.HijabStyle.ciput_ninja_resleting2" />
+        <activity android:name="com.example.HijabStyle.Ciput_Ninja_Resleting1" />
+        <activity android:name="com.example.HijabStyle.BergoMaryamTerbaru" />
+        <activity android:name="com.example.HijabStyle.PlisketTerbaru" />
+        <activity android:name="com.example.HijabStyle.TerbaruEmboss" />
+        <activity android:name="com.example.HijabStyle.JepitHijabKorea" />
+        <activity android:name="com.example.HijabStyle.TerbaruInnerRajut" />
+        <activity android:name="com.example.HijabStyle.squareterbaru" />
+        <activity android:name="com.example.HijabStyle.LasercutActivity" />
+        <activity android:name="com.example.HijabStyle.SyariActivity" />
+        <activity android:name="com.example.HijabStyle.CrinkleActivity" />
+        <activity android:name="com.example.HijabStyle.DiamondActivity" />
+        <activity android:name="com.example.HijabStyle.Ketentuan_page3" />
+        <activity android:name="com.example.HijabStyle.About_page2" />
+        <activity android:name="com.example.HijabStyle.Daftar3" />
+        <activity android:name="com.example.HijabStyle.Daftar2" />
+        <activity android:name="com.example.HijabStyle.Terbaru_1" />
+        <activity android:name="com.example.HijabStyle.Daftar_1" />
+        <activity android:name="com.example.HijabStyle.tali_ceruty" />
+        <activity android:name="com.example.HijabStyle.Hat7" />
+        <activity android:name="com.example.HijabStyle.Shorts_6" />
+        <activity android:name="com.example.HijabStyle.LongsPants_5" />
+        <activity android:name="com.example.HijabStyle.Jacket_page4" />
+        <activity android:name="com.example.HijabStyle.Hoodie_3" />
+        <activity android:name="com.example.HijabStyle.Accessories_2" />
+        <activity android:name="com.example.HijabStyle.Tshrsit_1" />
+        <activity android:name="com.example.HijabStyle.Login_page7Activity" />
+        <activity android:name="com.example.HijabStyle.MainActivity" />
+        <activity android:name="com.example.HijabStyle.menaksir_page5Activity" />
+        <activity android:name="com.example.HijabStyle.diskon_page3Activity" />
+        <activity android:name="com.example.HijabStyle.katagori_page2Activity" />
+        <activity android:name="com.example.HijabStyle.More" />
+        <activity android:name="com.example.HijabStyle.News" />
+        <activity android:name="com.example.HijabStyle.Shop" />
+        <activity android:name="com.example.HijabStyle.Home" />
+        <activity android:name="com.example.HijabStyle.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
